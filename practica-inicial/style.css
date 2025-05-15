@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#titulo {
+    background-color: black;
+    color: rgb(rgb(55, 10, 234));
+    text-align: center;
+
+}
+
+.subtitulo{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+li{
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    padding: 1rem;
+}
+
+li:hover{
+    background-color: blue;
+    color: while
+    ;
+}
