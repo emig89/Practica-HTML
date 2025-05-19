@@ -2,16 +2,50 @@
 <html lang="en">
 <head>
     
-    <title>Document</title>
+    <title>Mi primera web</title>
+    <!--Se va a aplicar el estilo a lo seleccionado-->
+    <!--Con este estilo agregamos el ancho del bode y el color-->
+   <style>
+        table, th, td {
+                border: 1px solid black;
+
+        }
+    </style>
 </head>
 
 <body>
-    <table>
-        <tr>
-            <th>Precio</th>
-            <th>Producto</th>
-
+   
+    <table style="width: 500px;">
+        <!--Thead sirve para agupara elementos de nuesta cabezera de las tablas-->
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+             </tr>
+        </thead>
+       <!--Tbody sirve para identificar o agrupar todas las filas que pertenescan al cuerpo de nuestra tabla, habilita a algunos exploradores a habilitar un scroll del contenido separado de la cabezera y pie de la tabla--> 
+        <tbody>
+         <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>
         </tr>
+
+         <tr>
+            <td>Panda</td>
+            <td>20,00$</td>
+        </tr>
+
+        <tr>
+            <td>Pfeliz</td>
+            <td>400,00$</td>
+        </tr>
+        </tbody>
+       <!--Tfoot agrega fila al pie de tabla-->
+        <tfoot>
+            <td></td>
+            <td>Total: 420,00$</td>
+
+        </tfoot>
 
     </table>
 
