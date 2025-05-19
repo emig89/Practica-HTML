@@ -6,26 +6,48 @@
 <body>
     <!--Header se utiliza para agrupar links, no podemos tener otras etiquetas de header dentro de las mismas-->
     <!--Footer pie de página dentro la página de la web-->
-    <!--Section sirve para definir secciones de nuestra aplicación dentro de estas se pueden colocar las etiquetas que nosotros queramos-->
-    <header> </header>
-        <h1>Blog de Emiliano</h1>
+    
+    <header> 
+       <!--agregamos un identidicador al título con id son atributos, sirve para interactuar con estos elementos o poder asignarles un estilo-->
+        <h1 id="titulo">Blog de Emiliano</h1>
+    </header>
+        <!-- DIV no cambia como se muestra el contenido sino contenerlo tiene la misma funcionalidad que section-->     
+        <!--si usamos CLASS podemos asignas un identificador a más de un elemento y utilizar el mismo texto para identificarlo-->
+        <div> 
+            <p>Soy un parrafo dentro de div</p>
+        </div>
+
     <section>
         <!--article utlizada para definir contenido independiente, sirva para los post de un blog-->
-        <article>
+        <!--Section sirve para definir secciones de nuestra aplicación dentro de estas se pueden colocar las etiquetas que nosotros queramos-->
+           <article class="post">
             <h2>Titulo de mi post</h2>
             <p>Descripción de mi post</p>
             <img src="img/google2.jpg" weidht="400"/>
             <p>Texto del artículo que hay acá y es texto de prueba</p>
         </article>
 
-        <article>
+        <article class="post2">
             <h2>Titulo de mi post 2</h2>
             <p>Descripción de mi post 2</p>
             <img src="img/visual.jpeg" weidht="500"/>
             <p>Texto del artículo que hay acá y es texto de prueba</p>
         </article>
 
+        <article class="post3">
+            <h2>Titulo de mi post 3</h2>
+            <p>Descripción de mi post 3</p>
+            <img src="img/editor.jpg" weidht="200"/>
+            <p>Texto del artículo que hay acá y es texto de prueba</p>
+        </article>
+
     </section>
-    <footer></footer>
+    <footer>
+        <!--con # podes hacer referencia únicamente al id-->
+        <a href="#titulo"> Ir al comienzo</a><br><br>
+        <a style="border: 5px solid red;" href="mailto:emiliano@gmail.com">CONTACTO</a><br><br> 
+        <a>Copyright 2025</a>     
+    </footer>
 </body>
 </html>
+
